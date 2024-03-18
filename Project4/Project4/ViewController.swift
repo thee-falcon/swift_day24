@@ -32,7 +32,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Open", style: .plain, target: self, action: #selector(openTapped))
         // creates a URL object.
-        let url = URL(string: "https://www.apple.com/")!
+        let url = URL(string: "https://www.1337.ma/")!
         // creates a new URLRequest.
         // webView.load(...): This method of WKWebView is used to load the content specified by the provided URLRequest.
         webView.load(URLRequest(url: url))
